@@ -1,0 +1,17 @@
+.snackbar-container {
+  background-color: #fed0d0;
+  width: 100vw;
+  height: 3em;
+  position: fixed;
+  left: 0%;
+  bottom: -10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.snackbar-message {
+  color: #f56c6c;
+  background-color: inherit;
+  font-weight: 600;
+}

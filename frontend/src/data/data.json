@@ -1,0 +1,883 @@
+[
+  {
+    "title": "The Godfather",
+    "year": "1972",
+    "language": "English",
+    "runtime": "2h 55m",
+    "poster": "/godfather.webp",
+    "poster_org": "https://www.themoviedb.org/t/p/original/hMTncCsOwZZCNOo5SBhE1wQKpid.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/tmU7GeKVybMWFButWEGl2M4GeiP.jpg",
+    "score": "9.1",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "An offer you can't refuse.",
+    "budget": "$6,000,000.00",
+    "revenue": "$245,066,411.00",
+    "price_per_ticket": 300,
+    "genre": ["Crime", "Drama"],
+    "text_color": "#4C2023",
+    "background_color": "#E1D6A0",
+    "director": "Francis Ford Coppola",
+    "writers": ["Mario Puzo"],
+    "synopsis": "Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.",
+    "top_cast": [
+      {
+        "name": "Don Vito Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/eEHCjqKMWSvQU4bmwhLMsg4RtEr.jpg"
+      },
+      {
+        "name": "Michael Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/fMDFeVf0pjopTJbyRSLFwNDm8Wr.jpg"
+      },
+      {
+        "name": "Sonny Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/v3flJtQEyczxENi29yJyvnN6LVt.jpg"
+      },
+      {
+        "name": "Tom Hagen",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/nLBIEvJDvSV0WhFv0bi7sU9tLyb.jpg"
+      },
+      {
+        "name": "Clemenza",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/1vr75BdHWret81vuSJ3ugiCBkxw.jpg"
+      },
+      {
+        "name": "Kay Adams",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/tnx7pJqisfAzvXOR5wHQsbnH9XH.jpg"
+      },
+      {
+        "name": "Connie Corleone Rizzi",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/RkFJejmEKM80ly6fPSN7octO5c.jpg"
+      },
+      {
+        "name": "Carlo Rizzi",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/5fjg2WPvuk1NvUpLyQ7aMJqOqy.jpg"
+      },
+      {
+        "name": "Captain McCluskey",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/dCTe6BsGSp9QTcva2Pz4wbxxYMY.jpg"
+      }
+    ]
+  },
+  {
+    "title": "The Godfather Part II",
+    "year": "1974",
+    "runtime": "3h 22m",
+    "poster": "/godfather2.webp",
+    "score": "9.0",
+    "text_color": "#F0F8E8",
+    "background_color": "#267F19",
+    "poster_org": "https://www.themoviedb.org/t/p/original/f647eSujVXo0KM8FO9TuOjQ4OCF.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/kGzFbGhp99zva6oZODW5atUtnqi.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "I don't feel I have to wipe everybody out, Tom. Just my enemies.",
+    "budget": "$13,000,000.00",
+    "revenue": "$102,600,000.00",
+    "price_per_ticket": 300,
+    "genre": ["Crime", "Drama"],
+    "language": "English",
+    "director": "Francis Ford Coppola",
+    "writers": ["Mario Puzo"],
+    "synopsis": "In the continuing saga of the Corleone crime family, a young Vito Corleone grows up in Sicily and in 1910s New York. In the 1950s, Michael Corleone attempts to expand the family business into Las Vegas, Hollywood and Cuba.",
+    "top_cast": [
+      {
+        "name": "Don Michael Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/fMDFeVf0pjopTJbyRSLFwNDm8Wr.jpg"
+      },
+      {
+        "name": "Tom Hagen",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/nLBIEvJDvSV0WhFv0bi7sU9tLyb.jpg"
+      },
+      {
+        "name": "Kay Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/tnx7pJqisfAzvXOR5wHQsbnH9XH.jpg"
+      },
+      {
+        "name": "Vito Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/cT8htcckIuyI1Lqwt1CvD02ynTh.jpg"
+      },
+      {
+        "name": "Frederico 'Fredo' Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/41wXX1FBalyIuf5eaA4S43Y8IfZ.jpg"
+      },
+      {
+        "name": "Constanzia 'Connie' Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/RkFJejmEKM80ly6fPSN7octO5c.jpg"
+      },
+      {
+        "name": "Hyman Roth",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/niSM7ejzddgaTcxjgJMYEFCr9Y2.jpg"
+      },
+      {
+        "name": "Frank Pentangeli",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/cTY2Hlf6sIR9xLI95bBir7eI0N.jpg"
+      },
+      {
+        "name": "Senator Pat Geary",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/pWNa9H3ABB3Ug9CwTfVNtHsCFjV.jpg"
+      }
+    ]
+  },
+  {
+    "title": "The Godfather Part III",
+    "year": "1992",
+    "runtime": "2h 42m",
+    "poster": "/godfather3.webp",
+    "score": "8.1",
+    "text_color": "#882B0F",
+    "background_color": "#ECB62C",
+    "poster_org": "https://www.themoviedb.org/t/p/original/lm3pQ2QoQ16pextRsmnUbG2onES.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/zNnjHLDtV8Ti3aworltaeaLMov4.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "All the power on earth can't change destiny.",
+    "budget": "$54,000,000.00",
+    "revenue": "$136,766,062.00",
+    "price_per_ticket": 300,
+    "genre": ["Crime", "Drama", "Thriller"],
+    "language": "English",
+    "director": "Francis Ford Coppola",
+    "writers": ["Mario Puzo"],
+    "synopsis": "In the midst of trying to legitimize his business dealings in 1979 New York and Italy, aging mafia don, Michael Corleone seeks forgiveness for his sins while taking a young protege under his wing.",
+    "top_cast": [
+      {
+        "name": "Michael Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/fMDFeVf0pjopTJbyRSLFwNDm8Wr.jpg"
+      },
+      {
+        "name": "Kay Adams",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/tnx7pJqisfAzvXOR5wHQsbnH9XH.jpg"
+      },
+      {
+        "name": "Connie Corleone Rizzi",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/RkFJejmEKM80ly6fPSN7octO5c.jpg"
+      },
+      {
+        "name": "Vincent Mancini",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/8JehpGGaW6BU5m4e4QURlR8Isg8.jpg"
+      },
+      {
+        "name": "Don Altobello",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/880EvYjyIG9BcrM3Jfof0QofmRe.jpg"
+      },
+      {
+        "name": "Joey Zasa",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/stDNYeOPWhLVBweJHPkB9ZHpKTP.jpg"
+      },
+      {
+        "name": "B.J. Harrison",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/za0jt4pZEjHf3kzUecbIC6hpX7I.jpg"
+      },
+      {
+        "name": "Grace Hamilton",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/k8ct3vqrs0TOATaDCe0gcu5K0Dz.jpg"
+      },
+      {
+        "name": "Mary Corleone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/dzHC2LxmarkBxWLhjp2DRa5oCev.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Interstellar",
+    "year": "2014",
+    "runtime": "2h 49m",
+    "poster": "/interstellar.webp",
+    "score": "8.6",
+    "text_color": "#3C1179",
+    "background_color": "#CDB9F1",
+    "poster_org": "https://www.themoviedb.org/t/p/original/7uCL4gbdmokTWyeYbJxwBo5pbVT.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/eZm0fWJtVftiqs5kKOOzke8nJIR.jpg",
+    "rating": "PG-13 - Teens 13 or older",
+    "tagline": "Mankind was born on Earth. It was never meant to die here.",
+    "budget": "$165,000,000.00",
+    "revenue": "$701,729,206.00",
+    "price_per_ticket": 500,
+    "genre": ["Adventure", "Drama", "Science Fiction"],
+    "language": "English",
+    "director": "Christopher Nolan",
+    "writers": ["Christopher Nolan", "Jonathan Nolan"],
+    "synopsis": "The adventures of a group of explorers who make use of a newly discovered wormhole to surpass the limitations on human space travel and conquer the vast distances involved in an interstellar voyage.",
+    "top_cast": [
+      {
+        "name": "Joseph \"Coop\" Cooper",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/e9ZHRY5toiBZCIPEEyvOG9A8ers.jpg"
+      },
+      {
+        "name": "Dr. Amelia Brand",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/s6tflSD20MGz04ZR2R1lZvhmC4Y.jpg"
+      },
+      {
+        "name": "Murphy \"Murph\" Cooper",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/mR1ELpP0T2Q1ZRSaADPgtrbPGla.jpg"
+      },
+      {
+        "name": "TARS (voice)",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/bAV5qsljgiHQkn3QluB5clVYC13.jpg"
+      },
+      {
+        "name": "Old Murph",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/rDClU5Mvj6SrDxAdZMGPDgGUBiw.jpg"
+      },
+      {
+        "name": "Professor John Brand",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/hZruclwEPCKw3e83rnFSIH5sRFZ.jpg"
+      },
+      {
+        "name": "Young Murph",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/gW9BdiA9eooBWa5bzHWkV7rbTa8.jpg"
+      },
+      {
+        "name": "Tom Cooper",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/vD5MtCjHPHpmU9XNn74EPGMHT7o.jpg"
+      },
+      {
+        "name": "Donald",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/8Y1sjBdnVR483S8PrnAQzlESwhx.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Inception",
+    "year": "2010",
+    "runtime": "2h 28m",
+    "poster": "/inception.webp",
+    "score": "8.7",
+    "text_color": "#D3EDFC",
+    "background_color": "#194D71",
+    "poster_org": "https://www.themoviedb.org/t/p/original/zt5kihG59UaOYyGcXnBz3HwQxXl.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/b5xAbWqVNsp14lCtR2vhaURWo7G.jpg",
+    "rating": "PG-13 - Teens 13 or older",
+    "tagline": "Your mind is the scene of the crime.",
+    "budget": "$160,000,000.00",
+    "revenue": "$825,532,764.00",
+    "price_per_ticket": 500,
+    "genre": ["Action", "Adventure", "Science Fiction"],
+    "language": "English",
+    "director": "Christopher Nolan",
+    "writers": ["Christopher Nolan"],
+    "synopsis": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: 'inception', the implantation of another person's idea into a target's subconscious.",
+    "top_cast": [
+      {
+        "name": "Dom Cobb",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg"
+      },
+      {
+        "name": "Arthur",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/z2FA8js799xqtfiFjBTicFYdfk.jpg"
+      },
+      {
+        "name": "Saito",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/w2t30L5Cmr34myAaUobLoSgsLfS.jpg"
+      },
+      {
+        "name": "Eames",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
+      },
+      {
+        "name": "Ariadne",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/eCeFgzS8dYHnMfWQT0oQitCrsSz.jpg"
+      },
+      {
+        "name": "Yusuf",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/jRNn8SZqFXuI5wOOlHwYsWh0hXs.jpg"
+      },
+      {
+        "name": "Robert Fischer, Jr.",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/llkbyWKwpfowZ6C8peBjIV9jj99.jpg"
+      },
+      {
+        "name": "Peter Browning",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/zLxzAdAfu7y02yEx29JSLDgXJZ4.jpg"
+      },
+      {
+        "name": "Mal Cobb",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/zChwjQ9D90fxx6cgWz5mUWHNd5b.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Oppenheimer",
+    "year": "2023",
+    "runtime": "3h 1m",
+    "poster": "/oppenheimer.webp",
+    "score": "8.3",
+    "text_color": "#FEF4C4",
+    "background_color": "#882B0F",
+    "poster_org": "https://www.themoviedb.org/t/p/original/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/fm6KqXpk3M2HVveHwCrBSSBaO0V.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "The world forever changes.",
+    "budget": "$100,000,000.00",
+    "revenue": "$933,806,065.00",
+    "price_per_ticket": 600,
+    "genre": ["Drama", "History"],
+    "language": "English",
+    "director": "Christopher Nolan",
+    "writers": ["Christopher Nolan"],
+    "synopsis": "The story of J. Robert Oppenheimer’s role in the development of the atomic bomb during World War II.",
+    "top_cast": [
+      {
+        "name": "J. Robert Oppenheimer",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/llkbyWKwpfowZ6C8peBjIV9jj99.jpg"
+      },
+      {
+        "name": "Kitty Oppenheimer",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/5nCSG5TL1bP1geD8aaBfaLnLLCD.jpg"
+      },
+      {
+        "name": "Leslie Groves",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/At3JgvaNeEN4Z4ESKlhhes85Xo3.jpg"
+      },
+      {
+        "name": "Lewis Strauss",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/im9SAqJPZKEbVZGmjXuLI4O7RvM.jpg"
+      },
+      {
+        "name": "Jean Tatlock",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/c03E1GI4lCQ19WqZ4G4Da9CUFNH.jpg"
+      },
+      {
+        "name": "Ernest Lawrence",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/dCfu2EN7FjISACcjilaJu7evwEc.jpg"
+      },
+      {
+        "name": "Boris Pash",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/vD5MtCjHPHpmU9XNn74EPGMHT7o.jpg"
+      },
+      {
+        "name": "David Hill",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/zvBCjFmedqXRqa45jlLf6vBd9Nt.jpg"
+      },
+      {
+        "name": "Niels Bohr",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/AbCqqFxNi5w3nDUFdQt0DGMFh5H.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Batman Begins",
+    "year": "2005",
+    "runtime": "2h 20m",
+    "poster": "/batmanbegins.webp",
+    "score": "7.7",
+    "text_color": "#FFE8E0",
+    "background_color": "#F35428",
+    "poster_org": "https://www.themoviedb.org/t/p/original/8RW2runSEc34IwKN2D1aPcJd2UL.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/xK1hxQcUxyIavXcowSofVWCU9cf.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "Evil fears the knight.",
+    "budget": "$150,000,000.00",
+    "revenue": "$374,218,673.00",
+    "price_per_ticket": 650,
+    "genre": ["Action", "Drama", "Crime"],
+    "language": "English",
+    "director": "Christopher Nolan",
+    "writers": ["Christopher Nolan", "David S. Goyer"],
+    "synopsis": "Driven by tragedy, billionaire Bruce Wayne dedicates his life to uncovering and defeating the corruption that plagues his home, Gotham City. Unable to work within the system, he instead creates a new identity, a symbol of fear for the criminal underworld - The Batman.",
+    "top_cast": [
+      {
+        "name": "Bruce Wayne / Batman",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/AcfW3p5D6ov573fABLyGqwYdolD.jpg"
+      },
+      {
+        "name": "Henri Ducard / Ra's al Ghul",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/bboldwqSC6tdw2iL6631c98l2Mn.jpg"
+      },
+      {
+        "name": "Rachel Dawes",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/1o9j7xajyWILCubtElbfovu43DT.jpg"
+      },
+      {
+        "name": "Alfred Pennyworth",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/hZruclwEPCKw3e83rnFSIH5sRFZ.jpg"
+      },
+      {
+        "name": "James Gordon",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg"
+      },
+      {
+        "name": "Jonathan Crane / Scarecrow",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/llkbyWKwpfowZ6C8peBjIV9jj99.jpg"
+      },
+      {
+        "name": "Lucius Fox",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/jPsLqiYGSofU4s6BjrxnefMfabb.jpg"
+      },
+      {
+        "name": "Carmine \"The Roman\" Falcone",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/d5yLk0PK8q7EKR3E3G2txO758IW.jpg"
+      },
+      {
+        "name": "Arnold Flass",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/rcncVr356hpfKX9qOrKL3SJlEO7.jpg"
+      }
+    ]
+  },
+  {
+    "title": "The Dark Knight",
+    "year": "2008",
+    "runtime": "2h 32m",
+    "poster": "/darkKnight.webp",
+    "score": "9.2",
+    "text_color": "#D3EDFC",
+    "background_color": "#194D71",
+    "poster_org": "https://www.themoviedb.org/t/p/original/5JSt5BraClSv0XgvDeTYM1FsFjG.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/hMn3BsD4s4Y8FV0kbwq8Y88EmCv.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "Welcome to a world without rules.",
+    "budget": "$185,000,000.00",
+    "revenue": "$1,004,558,444.00",
+    "price_per_ticket": 700,
+    "genre": ["Action", "Drama", "Crime", "Thriller"],
+    "language": "English",
+    "director": "Christopher Nolan",
+    "writers": ["Christopher Nolan", "Jonathan Nolan", "David S. Goyer"],
+    "synopsis": "Batman raises the stakes in his war on crime. With the help of Lt. Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as the Joker..",
+    "top_cast": [
+      {
+        "name": "Bruce Wayne / Batman",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/AcfW3p5D6ov573fABLyGqwYdolD.jpg"
+      },
+      {
+        "name": "Joker",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/AdWKVqyWpkYSfKE5Gb2qn8JzHni.jpg"
+      },
+      {
+        "name": "Alfred Pennyworth",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/hZruclwEPCKw3e83rnFSIH5sRFZ.jpg"
+      },
+      {
+        "name": "James Gordon",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg"
+      },
+      {
+        "name": "Harvey Dent / Two-Face",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/5EFQvRHlpP1Iaw2e6vjOaBny6DV.jpg"
+      },
+      {
+        "name": "Rachel Dawes",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/vsfkWdYWmA9CpzMHTJzrFxlDnEZ.jpg"
+      },
+      {
+        "name": "Lucius Fox",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/jPsLqiYGSofU4s6BjrxnefMfabb.jpg"
+      },
+      {
+        "name": "Anthony Garcia",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/wAk4Me2INiNSpRvzU8K98743Uc1.jpg"
+      },
+      {
+        "name": "Anna Ramirez",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/lJgLQs7cfM49m8VzVviwxIByz76.jpg"
+      }
+    ]
+  },
+  {
+    "title": "The Dark Knight Rises",
+    "year": "2012",
+    "runtime": "2h 45m",
+    "poster": "/darkKnightRises.webp",
+    "score": "7.8",
+    "text_color": "#F0F8E8",
+    "background_color": "#267F19",
+    "poster_org": "https://www.themoviedb.org/t/p/original/fN0YkgaNUNR8Tf2d4MdpaHwREg8.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/uKhaDQWqLwo9CW8RJfdnDhSmii8.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "The Legend Ends",
+    "budget": "$250,000,000.00",
+    "revenue": "$1,081,041,287.00",
+    "price_per_ticket": 500,
+    "genre": ["Action", "Drama", "Crime", "Thriller"],
+    "language": "English",
+    "director": "Christopher Nolan",
+    "writers": ["Christopher Nolan", "Jonathan Nolan", "David S. Goyer"],
+    "synopsis": "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
+    "top_cast": [
+      {
+        "name": "Bruce Wayne / Batman",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/AcfW3p5D6ov573fABLyGqwYdolD.jpg"
+      },
+      {
+        "name": "Alfred Pennyworth",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/hZruclwEPCKw3e83rnFSIH5sRFZ.jpg"
+      },
+      {
+        "name": "James Gordon",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/2v9FVVBUrrkW2m3QOcYkuhq9A6o.jpg"
+      },
+      {
+        "name": "Selina Kyle / Catwoman",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/s6tflSD20MGz04ZR2R1lZvhmC4Y.jpg"
+      },
+      {
+        "name": "Bane",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/d81K0RH8UX7tZj49tZaQhZ9ewH.jpg"
+      },
+      {
+        "name": "Miranda Tate / Talia al Ghul",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/zChwjQ9D90fxx6cgWz5mUWHNd5b.jpg"
+      },
+      {
+        "name": "John Blake",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/z2FA8js799xqtfiFjBTicFYdfk.jpg"
+      },
+      {
+        "name": "Lucius Fox",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/jPsLqiYGSofU4s6BjrxnefMfabb.jpg"
+      },
+      {
+        "name": "Peter Foley",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/z974QEHL12qUvLyk6hlWGAmDgom.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Fight Club",
+    "year": "1999",
+    "runtime": "2h 19m",
+    "poster": "/fightClub.webp",
+    "score": "8.7",
+    "text_color": "#FEF4C4",
+    "background_color": "#882B0F",
+    "poster_org": "https://www.themoviedb.org/t/p/original/a26cQPRhJPX6GbWfQbvZdrrp9j9.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/xRyINp9KfMLVjRiO5nCsoRDdvvF.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "Mischief. Mayhem. Soap.",
+    "budget": "$63,000,000.00",
+    "revenue": "$100,853,753.00",
+    "genre": ["Drama"],
+    "price_per_ticket": 450,
+    "language": "English",
+    "director": "David Fincher",
+    "writers": ["Chuck Palahniuk", "Jim Uhls"],
+    "synopsis": "A ticking-time-bomb insomniac and a slippery soap salesman channel primal male aggression into a shocking new form of therapy. Their concept catches on, with underground 'fight clubs' forming in every town, until an eccentric gets in the way and ignites an out-of-control spiral toward oblivion.",
+    "top_cast": [
+      {
+        "name": "The Narrator",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/5XBzD5WuTyVQZeS4VI25z2moMeY.jpg"
+      },
+      {
+        "name": "Tyler Durden",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/eAOtKAc4p2C3DV8TGJQJzw8DeRv.jpg"
+      },
+      {
+        "name": "Marla Singer",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/DDeITcCpnBd0CkAIRPhggy9bt5.jpg"
+      },
+      {
+        "name": "Robert \"Bob\" Paulson",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/7gKLR1u46OB8WJ6m06LemNBCMx6.jpg"
+      },
+      {
+        "name": "Angel Face",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/ca3x0OfIKbJppZh8S1Alx3GfUZO.jpg"
+      },
+      {
+        "name": "Richard Chesler",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/fSyQKZO39sUsqY283GXiScOg3Hi.jpg"
+      },
+      {
+        "name": "The Mechanic",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/a5ax2ICLrV6l0T74OSFvzssCQyQ.jpg"
+      },
+      {
+        "name": "Ricky",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/3DW13W47cKk4LQZwS4EvRaNBoVu.jpg"
+      },
+      {
+        "name": "Intern",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/7byGiVac0GjBSVD1h6ylZlVXZK6.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Whiplash",
+    "year": "2014",
+    "runtime": "1h 47m",
+    "poster": "/whiplash.webp",
+    "score": "8.8",
+    "text_color": "#FEF4C4",
+    "background_color": "#882B0F",
+    "poster_org": "https://www.themoviedb.org/t/p/original/vB36bkJI1nJBDtmcLEpgI48J1pv.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/bF8eIIIJJoMZf2mFibAejqEGQcX.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "The road to greatness can take you to the edge.",
+    "budget": "$3,300,000.00",
+    "revenue": "$13,092,000.00",
+    "price_per_ticket": 350,
+    "genre": ["Drama", "Music"],
+    "language": "English",
+    "director": "Damien Chazelle",
+    "writers": ["Damien Chazelle"],
+    "synopsis": "Under the direction of a ruthless instructor, a talented young drummer begins to pursue perfection at any cost, even his humanity.",
+    "top_cast": [
+      {
+        "name": "Andrew Neiman",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/cg3LW0xX6RKr8dmescxq1bepcb5.jpg"
+      },
+      {
+        "name": "Terence Fletcher",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/ScmKoJ9eiSUOthAt1PDNLi8Fkw.jpg"
+      },
+      {
+        "name": "Jim Neiman",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/xncLbAjPXooyETKriMUUlZJkGn9.jpg"
+      },
+      {
+        "name": "Nicole",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/1F0fCPNhb5W0WyFe8Tszfbx1DEp.jpg"
+      },
+      {
+        "name": "Ryan Connolly",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/At09XQpVXnChgedNsxu4ceR5W9i.jpg"
+      },
+      {
+        "name": "Uncle Frank",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/tt4kCAovGtaU4pRI4KJfKvTJ8tq.jpg"
+      },
+      {
+        "name": "Carl Tanner",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/6TC0gKxJIttIhXLnCttANV9gd1G.jpg"
+      },
+      {
+        "name": "Dustin",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/5ondXm5m2LoC7sdXhTziNAmuDfw.jpg"
+      },
+      {
+        "name": "Travis",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/zUMEMibklFznVD2kkpbNTs63UVX.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Pulp Fiction",
+    "year": "1994",
+    "runtime": "2h 34m",
+    "poster": "/pulpFiction.webp",
+    "score": "8.5",
+    "text_color": "#FFF4F7",
+    "background_color": "#EF5C5C",
+    "poster_org": "https://www.themoviedb.org/t/p/original/vdeoTjDUbiZm1He25vA2Lpd3509.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/aOHCgF5sEt7aXi8faqEoGKl1vXD.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "Just because you are a character doesn't mean you have character.",
+    "budget": "$8,500,000.00",
+    "revenue": "$213,900,000.00",
+    "price_per_ticket": 430,
+    "genre": ["Crime", "Thriller"],
+    "language": "English",
+    "director": "Quentin Tarantino",
+    "writers": ["Quentin Tarantino", "Roger Avary"],
+    "synopsis": "A burger-loving hit man, his philosophical partner, a drug-addled gangster's moll and a washed-up boxer converge in this sprawling, comedic crime caper. Their adventures unfurl in three stories that ingeniously trip back and forth in time.",
+    "top_cast": [
+      {
+        "name": "Vincent Vega",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/tr0jqzrijCFwKcXhJB4B0mtBCXt.jpg"
+      },
+      {
+        "name": "Jules Winnfield",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/nCJJ3NVksYNxIzEHcyC1XziwPVj.jpg"
+      },
+      {
+        "name": "Mia Wallace",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/sBgAZWi3o4FsnaTvnTNtK6jpQcF.jpg"
+      },
+      {
+        "name": "Butch Coolidge",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/eKzKdhqk3RnGTeDju1eOBxdOk3c.jpg"
+      },
+      {
+        "name": "Marsellus Wallace",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/ohAOsD8E4tu35PI2buzZORpn9Ef.jpg"
+      },
+      {
+        "name": "Winston \"The Wolf\" Wolfe",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/7P30hza1neYWW3r7rSQOC736K2Z.jpg"
+      },
+      {
+        "name": "Lance",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/sP5tI3NVHrhmle5qotVz9q2mWfR.jpg"
+      },
+      {
+        "name": "Ringo (\"Pumpkin\")",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/qSizF2i9gz6c6DbAC5RoIq8sVqX.jpg"
+      },
+      {
+        "name": "Yolanda (\"Honey Bunny\")",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/joHGUtEmXzJkH6ogEliiUKT9MNa.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Memories of Murder",
+    "year": "2003",
+    "runtime": "2h 11m",
+    "poster": "/memoriesOfMurder.webp",
+    "score": "8.1",
+    "text_color": "#F0F8E8",
+    "background_color": "#267F19",
+    "poster_org": "https://www.themoviedb.org/t/p/original/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/2NArMoObkAbnIPvqlHC3gRGsfBb.jpg",
+    "rating": "R - 15+ (violence & profanity)",
+    "tagline": "The worst of them will stay with you... forever.",
+    "budget": "$2,800,000.00",
+    "revenue": "$26,000,000.00",
+    "price_per_ticket": 530,
+    "genre": ["Drama", "Crime", "Thriller"],
+    "language": "Korean",
+    "director": "Bong Joon-ho",
+    "writers": ["Bong Joon-ho", "Shim Sung-bo"],
+    "synopsis": "During the late 1980s, two detectives in a South Korean province attempt to solve the nation's first series of rape-and-murder cases.",
+    "top_cast": [
+      {
+        "name": "Detective Park Doo-man",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/dyWUKQlNyr7SUAjo58VZXvPODkr.jpg"
+      },
+      {
+        "name": "Detective Seo Tae-yoon",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/5VKIhf0ZVxqtrZfyMPbubZz3INr.jpg"
+      },
+      {
+        "name": "Detective Cho Yong-koo",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/bGHnBUrBKk2ItXDZJrBDnBeQJvj.jpg"
+      },
+      {
+        "name": "Sergeant Shin Dong-chul",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/gLKek8JICZXq4YdJpOd3jECaLCA.jpg"
+      },
+      {
+        "name": "Sergeant Koo Hee-bong",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/fV8BtRziGqUsBozd1G6lEwmW2b5.jpg"
+      },
+      {
+        "name": "Officer Kwon Kwi-ok",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/nJSugSQsuPirOBgXoZPUDNaaiHW.jpg"
+      },
+      {
+        "name": "Jo Byung-soon",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/3vnSlWZNQJXXS0UMW5LC95lslhh.jpg"
+      },
+      {
+        "name": "Baek Kwang-ho",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/jhL9musRKIvR37F8WHWZlutOWIe.jpg"
+      },
+      {
+        "name": "Park Hyeon-gyu",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/8ltdBxd40m2iAnsRKV0JMbv7rZT.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Parasite",
+    "year": "2019",
+    "runtime": "2h 13m",
+    "poster": "/parasite.webp",
+    "score": "8.5",
+    "text_color": "#D3EDFC",
+    "background_color": "#194D71",
+    "poster_org": "https://www.themoviedb.org/t/p/original/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/ApiBzeaa95TNYliSbQ8pJv4Fje7.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "Act like you own the place.",
+    "budget": "$11,363,000.00",
+    "revenue": "$257,591,776.00",
+    "price_per_ticket": 580,
+    "genre": ["Comedy", "Drama", "Thriller"],
+    "language": "Korean",
+    "director": "Bong Joon-ho",
+    "writers": ["Bong Joon-ho", "Han Jin-won"],
+    "synopsis": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+    "top_cast": [
+      {
+        "name": "Kim Ki-taek",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/dyWUKQlNyr7SUAjo58VZXvPODkr.jpg"
+      },
+      {
+        "name": "Park Dong-ik",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/mwF2HgyEF2UzxSvNRJEtbWlKbAj.jpg"
+      },
+      {
+        "name": "Yeon-kyo",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/n7YWOoquBL9g3qEwQ2zvrQSW96L.jpg"
+      },
+      {
+        "name": "Ki-woo",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/bIdt6LrqMpGQtGTZ1gmji6eGzTH.jpg"
+      },
+      {
+        "name": "Ki-jung",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/gaDnEiMD5PClT9ARg1bSFyexbor.jpg"
+      },
+      {
+        "name": "Moon-gwang",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/4r3K47UpSmzZ5t9cyTRRqRl9rdz.jpg"
+      },
+      {
+        "name": "Chung-sook",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/pZiQXSWwo9F4gncHfa1yw0CQjxk.jpg"
+      },
+      {
+        "name": "Geun-se",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/5SucrxkigHss7UuJKrkfAZX5MXz.jpg"
+      },
+      {
+        "name": "Da-hye",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/j0i3wSCvbSmZq8aI41by2g8ZRE.jpg"
+      }
+    ]
+  },
+  {
+    "title": "The Handmaiden",
+    "year": "2016",
+    "runtime": "2h 25m",
+    "poster": "/handmaiden.webp",
+    "score": "8.2",
+    "text_color": "#FFE0EC",
+    "background_color": "#E34F8F",
+    "poster_org": "https://www.themoviedb.org/t/p/original/lUznVIPN6HGFpSbwGGmVN2iF7rK.jpg",
+    "backdrop_poster": "https://image.tmdb.org/t/p/w500/2b3RNXF7ca9bgX8FrjRBYfLnNQC.jpg",
+    "rating": "R - 17+ (violence & profanity)",
+    "tagline": "Never did they expect to get into a controversial relationship...",
+    "budget": "$8,575,000.00",
+    "revenue": "$38,600,000.00",
+    "price_per_ticket": 390,
+    "genre": ["Drama", "Thriller", "Romance"],
+    "language": "Korean",
+    "director": "Park Chan-wook",
+    "writers": ["Park Chan-wook", "Chung Seo-kyung", "Sarah Waters"],
+    "synopsis": "In 1930s Korea, a swindler and a young woman pose as a Japanese count and a handmaiden to seduce a Japanese heiress and steal her fortune.",
+    "top_cast": [
+      {
+        "name": "Lady Hideko",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/zZ41nW0GJqesHB75hFP6qllPS9y.jpg"
+      },
+      {
+        "name": "Sookee",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/gFofVUeVlIvBJMUv7maHQwWdfsk.jpg"
+      },
+      {
+        "name": "Count Fujiwara",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/alHcDyLYbc6C2X9yOHw8mNHZVGu.jpg"
+      },
+      {
+        "name": "Uncle Kouzuki",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/r3o7eKsqVCQu0ppIY88d16VLCsj.jpg"
+      },
+      {
+        "name": "Ms. Sasaki",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/gbWb5gXuhGCnTSogCrmMPD65F8w.jpg"
+      },
+      {
+        "name": "Aunt of Noble Lady",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/iXfIsmrzohNAAf2gyPCE06rJM1N.jpg"
+      },
+      {
+        "name": "Bok-soon",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/vU2LIGOlVEUGfXfGWTdvEdz2rbT.jpg"
+      },
+      {
+        "name": "Goo-gai",
+        "photo_url": "https://www.themoviedb.org/t/p/w138_and_h175_face/1cZ40lS8BomxgOl2obltRsiefZ7.jpg"
+      }
+    ]
+  }
+]

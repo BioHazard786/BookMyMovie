@@ -1,0 +1,219 @@
+.movie-detail-info-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 70%;
+}
+
+.overlay-position {
+  background-color: inherit;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.movie-rating {
+  font-size: 2.1em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.movie-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.movie-title .movie-year {
+  background-color: inherit;
+  color: var(--secondary-text-color);
+  margin-left: 7px;
+}
+
+.light .movie-title .movie-year {
+  color: var(--text-color);
+}
+
+.movie-sub-title {
+  font-size: 0.8em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.movie-sub-title .movie-pg-rating {
+  background-color: inherit;
+  color: var(--secondary-text-color);
+}
+
+.light .movie-sub-title .movie-pg-rating {
+  color: var(--text-color);
+}
+
+.info-container {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 7px 10px;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  margin-top: 5px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.light .info-container {
+  border: 1px solid var(--border-light-color);
+}
+
+.original-title {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.heading {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  background-color: inherit;
+}
+
+.movie-budget {
+  top: 51%;
+  font-weight: 500;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.movie-revenue {
+  top: 57%;
+  font-weight: 500;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.movie-director {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.movie-writer {
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.movie-writer-container {
+  background-color: transparent;
+}
+
+.special-container {
+  display: inline-block;
+  margin-top: 5px;
+  background-color: var(--color-overlay);
+  color: var(--special-container-text);
+  padding: 3px 8px;
+  border-radius: 8px;
+  position: relative;
+  border: 1px solid var(--special-container-background);
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.special-container::before {
+  background-color: var(--special-container-background);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.light .special-container {
+  background-color: var(--light-color-overlay);
+  color: var(--special-container-background);
+  border: 1px solid var(--special-container-background);
+}
+
+.special-container-first-letter {
+  font-family: "GangOfThree", "Overpass", sans-serif;
+  margin-right: 6px;
+  color: var(--special-container-text);
+  background-color: transparent;
+}
+
+.light .special-container-first-letter {
+  color: var(--special-container-background);
+}
+
+.movie-genre {
+  top: 69%;
+  font-weight: 500;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.movie-genre-container {
+  /* display: flex; */
+  background-color: transparent;
+}
+
+.genre-first-letter {
+  font-family: "GangOfThree", "Overpass", sans-serif;
+  margin-right: 6px;
+  color: var(--special-container-text);
+  background-color: inherit;
+}
+
+.movie-synopsis {
+  font-weight: 500;
+  font-size: 0.9em;
+  width: 100%;
+}
+
+.character-photo-array {
+  display: flex;
+  flex-direction: row;
+  max-width: 1000px;
+  overflow-x: auto;
+  margin-top: 5px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.character-photo-array::-webkit-scrollbar {
+  display: none;
+}
+
+.character-photo {
+  display: block;
+  margin-right: 15px;
+  border-radius: 15px;
+  aspect-ratio: 1/1;
+  height: 80px;
+  object-fit: cover;
+}
+
+.character-name {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 600;
+  color: var(--secondary-text-color);
+  letter-spacing: 1px;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 5px;
+  width: 80px;
+}

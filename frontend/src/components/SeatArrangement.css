@@ -1,0 +1,30 @@
+.seats-grid {
+  display: grid;
+  gap: 7px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.seat {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.6em;
+}
+
+.seat:focus {
+  outline: none !important;
+}
+
+.selected {
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+}
+
+.not-selected {
+  background-color: var(--secondary-background-color);
+}

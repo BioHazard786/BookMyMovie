@@ -1,0 +1,133 @@
+.movie-container {
+  display: grid;
+  grid-gap: 28px 30px;
+  grid-template-columns: repeat(auto-fill, 185px);
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.poster-container {
+  aspect-ratio: 2/3;
+  height: auto;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: var(--container-background);
+  animation: fade-in 0.4s ease;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.movie-poster {
+  border-radius: 5px;
+  object-fit: cover;
+  width: 100%;
+  animation: fade-in 0.3s ease-in-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-weight: 600;
+  font-size: 0.825em;
+  text-align: center;
+  line-height: 21px;
+  margin-top: 5px;
+  color: var(--text-color);
+  animation: pop-up-animation 0.3s linear;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+
+.overlay {
+  background: var(--color-overlay);
+  padding: 12px;
+  position: absolute;
+  width: 100%;
+  font-weight: 600;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.overlay:before {
+  background: var(--container-background);
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.overlay-runtime {
+  font-size: 0.825em;
+  font-weight: 600;
+  color: var(--container-background-text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+.rating {
+  position: absolute;
+  background: var(--container-background);
+  color: var(--container-background-text);
+  font-weight: 700;
+  font-size: 0.825em;
+  display: flex;
+  z-index: 10;
+  top: -10px;
+  left: -10px;
+  align-items: center;
+  justify-content: center;
+  height: 2.5em;
+  width: 2.5em;
+  animation: pop-up-animation 0.3s linear;
+  animation-fill-mode: forwards;
+  transform: scale(0);
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 1360px) {
+  .movie-container {
+    grid-gap: 25px 20px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .movie-container {
+    grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+    grid-auto-rows: minmax(auto-fill, 1fr);
+    padding: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+  .movie-container {
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-gap: 25px 15px;
+    padding: 15px;
+  }
+}

@@ -1,0 +1,11 @@
+.movie-detail-container {
+  position: relative;
+  height: 100%;
+  width: 400px;
+}
+
+@media (max-width: 760px) {
+  .movie-detail-container {
+    width: 100%;
+  }
+}

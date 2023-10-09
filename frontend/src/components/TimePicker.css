@@ -1,0 +1,20 @@
+.time-picker {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.time-picker-container {
+  background-color: var(--secondary-background-color);
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 0.7em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.selected-time {
+  background-color: var(--button-color);
+  color: var(--button-text-color);
+}

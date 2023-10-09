@@ -1,0 +1,50 @@
+.ticket-booking-container {
+  padding: 15px;
+  position: relative;
+  height: 100vh;
+}
+
+.movie-info-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.movie-image {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100px;
+  margin-right: 15px;
+}
+
+.movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.movie-info .movie-title {
+  font-weight: 800;
+}
+
+.sub-heading {
+  color: var(--button-color);
+  margin-right: 5px;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.sub-content {
+  color: var(--secondary-text-color);
+  font-size: 0.85em;
+  font-weight: 500;
+}
+
+.screen {
+  width: 100px;
+  height: 50px;
+  border: solid 5px var(--button-color);
+  border-color: var(--button-color) transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+}
