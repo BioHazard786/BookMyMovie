@@ -2,6 +2,13 @@
 
 This is a Telegram Mini App. Book any imaginary movie with it seamlessly with a unique interface. Made for the contest to be held on 09/10/2023.
 
+<p align="center">
+<a href="https://t.me/BookMyMovieBot">View Demo</a>
+    ·
+    <a href="https://github.com/BioHazard786/BookMyMovie/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/BioHazard786/BookMyMovie/issues">Request Feature</a></p>
+
 ## Table of Contents
 
 - [Getting Started](#getting-started)
