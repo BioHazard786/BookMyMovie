@@ -1,3 +1,5 @@
+// function for generating fake date data using todays date
+
 const weekday = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 const month = [
   "Jan",

@@ -11,6 +11,7 @@ const TicketBooking = () => {
   const { movieID } = useParams();
   const navigate = useNavigate();
 
+  // Setting onClick Handler to navigate using useNavigate of react-router
   window.Telegram.WebApp.BackButton.show().onClick(() =>
     navigate(`/movie/${movieID}`)
   );

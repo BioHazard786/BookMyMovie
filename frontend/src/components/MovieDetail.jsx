@@ -7,7 +7,11 @@ import { AnimatedPage } from "./AnimatedPage";
 const MovieDetail = () => {
   const { movieID } = useParams();
   const navigate = useNavigate();
+
+  // Expanding the mini app to full width
   window.Telegram.WebApp.expand();
+
+  // Setting onClick Handler to navigate using useNavigate of react-router
   window.Telegram.WebApp.MainButton.setParams({
     text: "Book Tickets",
     is_visible: true,

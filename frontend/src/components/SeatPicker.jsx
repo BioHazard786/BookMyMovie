@@ -24,10 +24,13 @@ const SeatPicker = () => {
   const currentSelectedDate = useSelectDate(
     (dateStore) => dateStore.currentSelectedDate
   );
+
+  // Snackbar state toggling function
   const snackBarToggle = useSnackBar((snackBarStore) => snackBarStore.toggle);
 
   const { movieID } = useParams();
 
+  // Checking before fetching payment invoice
   const mainButtonClick = () => {
     if (!currentSelectedDate) {
       window.Telegram.WebApp.HapticFeedback.notificationOccurred("error");
@@ -45,6 +48,7 @@ const SeatPicker = () => {
     }
   };
 
+  // Condition for showing main button
   if (seats.length !== 0) {
     window.Telegram.WebApp.MainButton.setParams({
       text: `Pay ₹${seats.length * data[movieID].price_per_ticket}`,
@@ -53,9 +57,12 @@ const SeatPicker = () => {
     window.Telegram.WebApp.MainButton.hide();
   }
 
+  // Mechanism for onClick handler so that htey does not pile up when component rerenders
   useEffect(() => {
+    // Adding onClick handler when component mounts
     window.Telegram.WebApp.MainButton.onClick(mainButtonClick);
 
+    // Removing onClick handler when component unmounts
     return () => {
       window.Telegram.WebApp.MainButton.offClick(mainButtonClick);
     };

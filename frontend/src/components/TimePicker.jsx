@@ -3,11 +3,16 @@ import { motion } from "framer-motion";
 import { useSelectTime } from "../utils/store";
 
 const TimePicker = () => {
+  // random data for time component
   const virtualTime = ["9:00", "13:10", "15:50", "19:30", "22:00"];
+
+  // State for time component
   const [currentSelectedTime, setCurrentSelectedTime] = useSelectTime(
     (timeStore) => [timeStore.currentSelectedTime, timeStore.selectTime]
   );
+
   const pickTime = (selectedTime) => {
+    // haptic feedback funciton for telegram mini app
     window.Telegram.WebApp.HapticFeedback.impactOccurred("medium");
     setCurrentSelectedTime(selectedTime);
   };

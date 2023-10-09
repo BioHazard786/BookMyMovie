@@ -2,12 +2,14 @@ import { useSnackBar } from "../utils/store";
 import { motion } from "framer-motion";
 import "./SnackBar.css";
 
+// SnackBar component for notification
 const SnackBar = () => {
   const [status, snackBarMessage] = useSnackBar((snackBarStore) => [
     snackBarStore.status,
     snackBarStore.snackBarMessage,
   ]);
 
+  // Animation variants
   const snackBarAnimation = {
     hidden: { bottom: "-10%", opacity: 0 },
     visible: {

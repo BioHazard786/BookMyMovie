@@ -14,11 +14,14 @@
   --light-color-overlay: rgba(225, 225, 225, 0.9);
 }
 
+/* Loading custom font from src/fonts */
 @font-face {
   font-family: "GangOfThree";
   src: local("GangOfThree-Regular"),
     url("./fonts/GangOfThree-Regular.ttf") format("truetype");
 }
+
+/* Initial styling of elements */
 
 * {
   padding: 0;
@@ -34,6 +37,7 @@
   scroll-behavior: smooth;
 }
 
+/* To disable the blue selection color of webkit based browser */
 input,
 textarea,
 button,
@@ -43,6 +47,7 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 
+/* Custom css animation key-frames */
 @keyframes fade-in {
   0% {
     opacity: 0;

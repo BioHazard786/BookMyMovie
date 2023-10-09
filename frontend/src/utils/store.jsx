@@ -1,5 +1,7 @@
 import { create } from "zustand";
 
+// Main State Store of application
+
 const useSnackBar = create((set) => ({
   status: false,
   snackBarMessage: "",

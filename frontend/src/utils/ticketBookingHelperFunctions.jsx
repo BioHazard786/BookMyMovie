@@ -18,6 +18,7 @@ const handlePaymentStatus = (status, snackBarToggle) => {
   }
 };
 
+// function for fetching payment invoice from the api
 export const bookTickets = async (
   movieID,
   seatCount,

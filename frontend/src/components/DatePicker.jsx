@@ -5,11 +5,14 @@ import { useSelectDate } from "../utils/store";
 
 const DatePicker = () => {
   const virtualDates = virtualDateGenerator();
+
+  // State for Date picker
   const [currentSelectedDate, setCurrentSelectedDate] = useSelectDate(
     (dateStore) => [dateStore.currentSelectedDate, dateStore.selectDate]
   );
 
   const chooseDate = (currentSelectedElement) => {
+    // haptic feedback funciton for telegram mini app
     window.Telegram.WebApp.HapticFeedback.impactOccurred("medium");
     const currentSelectedDate =
       currentSelectedElement.nodeName == "DIV"

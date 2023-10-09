@@ -1,5 +1,5 @@
 import data from "../data/data.json";
-import "./MovieContainer.css";
+import "./HomeScreen.css";
 import lightColor from "../utils/colorComparision";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
@@ -7,17 +7,20 @@ import { motion } from "framer-motion";
 import { AnimatedChild, AnimatedPage } from "./AnimatedPage";
 import { useSeats, useSelectDate, useSelectTime } from "../utils/store";
 
-const MovieContainer = () => {
+const HomeScreen = () => {
+  // Telegram Specific functions for main and back button
   window.Telegram.WebApp.MainButton.hide();
   window.Telegram.WebApp.BackButton.hide();
   window.Telegram.WebApp.enableClosingConfirmation();
 
+  // reseting the state
   const resetSeats = useSeats((seatStore) => seatStore.resetSeats);
   const resetTime = useSelectTime((timeStore) => timeStore.resetTime);
   const resetDate = useSelectDate((dateStore) => dateStore.resetDate);
   resetSeats();
   resetDate();
   resetTime();
+
   return (
     <AnimatedPage>
       <AnimatedChild>
@@ -83,4 +86,4 @@ const MovieContainer = () => {
     </AnimatedPage>
   );
 };
-export default MovieContainer;
+export default HomeScreen;

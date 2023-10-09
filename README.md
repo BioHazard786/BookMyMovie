@@ -16,12 +16,6 @@ This is a Telegram Mini App. Book any imaginary movie with it seamlessly with a 
 
 ## Getting Started
 
-- Clone this repo:
-
-```
-git clone https://github.com/anasty17/mirror-leech-telegram-bot
-```
-
 ### Prerequisites
 
 #### Required Variables
@@ -46,8 +40,8 @@ git clone https://github.com/anasty17/mirror-leech-telegram-bot
 
 - Clone this repo:
 
-```
-git clone https://github.com/anasty17/mirror-leech-telegram-bot mirrorbot/ && cd mirrorbot
+```bash
+git clone https://github.com/BioHazard786/BookMyMovie.git
 ```
 
 #### 2. Setting up ENV vars

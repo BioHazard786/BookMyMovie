@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import "./SeatArrangement.css";
 
+// Data for Numbers of seats available
 const seatArray = [
   1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22,
   23, 24, 25, 26, 27, 28, 29, 30,
@@ -24,11 +25,13 @@ const SeatArrangement = ({ arrangement, seats, addSeats, removeSeats }) => {
 
 const Seats = ({ seatNumber, seats, addSeats, removeSeats }) => {
   const removeSelectedSeats = (selectedSeat) => {
+    // haptic feedback funciton for telegram mini app
     window.Telegram.WebApp.HapticFeedback.impactOccurred("light");
     removeSeats(selectedSeat);
   };
 
   const chooseSeats = (chosenSeat) => {
+    // haptic feedback funciton for telegram mini app
     window.Telegram.WebApp.HapticFeedback.impactOccurred("light");
     addSeats(chosenSeat);
   };

@@ -22,6 +22,7 @@ const childAnimations = {
   },
 };
 
+// Wrapper for Animating Routes
 const AnimatedPage = ({ children }) => {
   return (
     <motion.div
@@ -36,6 +37,7 @@ const AnimatedPage = ({ children }) => {
   );
 };
 
+// Wrapper for Animating Route Children
 const AnimatedChild = ({ children }) => {
   return (
     <motion.div variants={childAnimations} initial="initial" animate="animate">
