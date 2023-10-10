@@ -1,16 +1,16 @@
 ## Directory Structure
 
-- public
-- src
-  - components
-  - data
-  - fonts
-  - utils
-  - App.jsx
-  - App.css
-  - index.jsx
-  - index.css
-- index.html
+- `public`
+- `src`
+  - `components`
+  - `data`
+  - `fonts`
+  - `utils`
+  - `App.jsx`
+  - `App.css`
+  - `index.jsx`
+  - `index.css`
+- `index.html`
 
 ### Components
 

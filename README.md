@@ -35,6 +35,7 @@
 - [Built With](#built-with)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 - [Acknowledgments](#acknowledgments)
 
 ## Screenshots
@@ -194,6 +195,12 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Mohd Zaid - [@LuLu786](https://t.me/LuLu786) - bzatch70@gmail.com
+
+Project Link : [https://github.com/BioHazard786/BookMymovie](https://github.com/BioHazard786/BookMymovie)
 
 ## Acknowledgments
 

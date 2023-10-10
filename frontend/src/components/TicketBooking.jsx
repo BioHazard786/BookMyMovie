@@ -6,19 +6,21 @@ import DatePicker from "./DatePicker";
 import SeatPicker from "./SeatPicker";
 import SnackBar from "./SnackBar";
 import { AnimatedPage } from "./AnimatedPage";
+import { telegramBackButton } from "../utils/telegramWebAppComponents";
 
 const TicketBooking = () => {
   const { movieID } = useParams();
   const navigate = useNavigate();
 
-  // Setting onClick Handler to navigate using useNavigate of react-router
-  window.Telegram.WebApp.BackButton.show().onClick(() =>
-    navigate(`/movie/${movieID}`)
-  );
+  /**
+   * Setting onClick Handler to navigate using useNavigate of react-router
+   */
+  telegramBackButton.show().onClick(() => navigate(`/movie/${movieID}`));
 
   return (
     <>
       <AnimatedPage>
+        {/* This div is for movie poster and detials */}
         <div className="ticket-booking-container">
           <div className="movie-info-container">
             <img

@@ -4,6 +4,7 @@ import { virtualDateGenerator } from "../utils/virtualDateGenerator";
 import { useSelectDate } from "../utils/store";
 import { checkLowContrast } from "../utils/colorComparision";
 import { bgColor, secondaryBgColor } from "../utils/themeParams";
+import { telegramHapticFeedback } from "../utils/telegramWebAppComponents";
 
 const DatePicker = () => {
   const virtualDates = virtualDateGenerator();
@@ -15,7 +16,7 @@ const DatePicker = () => {
 
   const chooseDate = (currentSelectedElement) => {
     // haptic feedback funciton for telegram mini app
-    window.Telegram.WebApp.HapticFeedback.impactOccurred("medium");
+    telegramHapticFeedback.impactOccurred("medium");
     const currentSelectedDate =
       currentSelectedElement.nodeName == "DIV"
         ? currentSelectedElement?.getAttribute("data-value")
@@ -28,7 +29,9 @@ const DatePicker = () => {
     <div className="date-picker">
       {virtualDates.map((virtualDate, index) => (
         <motion.div
-          // Condional styling to add border when contrast is too low
+          /**
+           * Condional styling to add border when contrast is too low
+           */
           style={
             checkLowContrast(bgColor, secondaryBgColor)
               ? { border: "1px solid var(--button-color)" }

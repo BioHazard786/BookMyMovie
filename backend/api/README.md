@@ -32,18 +32,8 @@ Run the project and access the documentation at:
 
 [http://localhost:3000/docs](http://localhost:3000/docs)
 
-OR
-
-Access the documentation online at:
-
-[https://bookmymovie-telegram-api.vercel.app/docs](https://bookmymovie-telegram-api.vercel.app/docs)
-
 ## Screenshots
 
 See the result after construction:
 
-![](https://github.com/BioHazard786/BookMyMovie/assets/54793151/5fc69992-c096-4873-9044-3af28aa4c4b3)
-
-```
-
-```
+![Swagger Docs](https://github.com/BioHazard786/BookMyMovie/assets/54793151/5fc69992-c096-4873-9044-3af28aa4c4b3)

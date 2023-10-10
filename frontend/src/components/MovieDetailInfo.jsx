@@ -5,6 +5,10 @@ import lightColor from "../utils/colorComparision";
 import { motion } from "framer-motion";
 import { childAnimations } from "./AnimatedPage";
 
+/**
+ * Component for showing the movie detail info
+ * Stateless component
+ */
 const MovieDetailInfo = () => {
   const { movieID } = useParams();
   return (

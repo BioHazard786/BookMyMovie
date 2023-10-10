@@ -6,14 +6,28 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 import { AnimatedChild, AnimatedPage } from "./AnimatedPage";
 import { useSeats, useSelectDate, useSelectTime } from "../utils/store";
+import {
+  telegramBackButton,
+  telegramMainButton,
+  telegramWebApp,
+} from "../utils/telegramWebAppComponents";
 
+/**
+ * Iniital screen component
+ */
 const HomeScreen = () => {
-  // Telegram Specific functions for main and back button
-  window.Telegram.WebApp.MainButton.hide();
-  window.Telegram.WebApp.BackButton.hide();
-  window.Telegram.WebApp.enableClosingConfirmation();
+  /**
+   * telegram function to hide the main button of mini app
+   * telegram function to hide the back button of mini app
+   * telegram function to enable the closing confirmation popup of mini app
+   */
+  telegramMainButton.hide();
+  telegramBackButton.hide();
+  telegramWebApp.enableClosingConfirmation();
 
-  // reseting the state
+  /**
+   * Resetting the state of seat, time and date component
+   */
   const resetSeats = useSeats((seatStore) => seatStore.resetSeats);
   const resetTime = useSelectTime((timeStore) => timeStore.resetTime);
   const resetDate = useSelectDate((dateStore) => dateStore.resetDate);

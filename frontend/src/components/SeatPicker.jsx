@@ -52,7 +52,9 @@ const SeatPicker = () => {
     }
   };
 
-  // Condition for showing text on main button
+  /**
+   * Condition for showing text on main button
+   */
   if (seats.length !== 0) {
     window.Telegram.WebApp.MainButton.setParams({
       text: `Pay ₹${seats.length * data[movieID].price_per_ticket}`,
@@ -63,14 +65,17 @@ const SeatPicker = () => {
     }).show();
   }
 
-  // Mechanism for onClick handler so that htey does not pile up when component rerenders
+  /**
+   * Mechanism for onClick eventhandler so that they does not pile up when component rerenders multiple time
+   * When component rerender the previous onClick is removed and new onCLick is attached
+   */
   useEffect(() => {
     // Adding onClick handler when component mounts
-    window.Telegram.WebApp.MainButton.onClick(mainButtonClick);
+    telegramMainButton.onClick(mainButtonClick);
 
     // Removing onClick handler when component unmounts
     return () => {
-      window.Telegram.WebApp.MainButton.offClick(mainButtonClick);
+      telegramMainButton.offClick(mainButtonClick);
     };
   }, [seats.length, currentSelectedDate, currentSelectedTime]);
 

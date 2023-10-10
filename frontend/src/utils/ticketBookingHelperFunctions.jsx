@@ -1,18 +1,23 @@
 import data from "../data/data.json";
+import {
+  telegramHapticFeedback,
+  telegramMainButton,
+  telegramWebApp,
+} from "./telegramWebAppComponents";
 
 const handlePaymentStatus = (status, snackBarToggle) => {
   window.Telegram.WebApp.MainButton.hideProgress();
   if (status == "paid") {
-    window.Telegram.WebApp.HapticFeedback.notificationOccurred("success");
+    telegramHapticFeedback.notificationOccurred("success");
     window.Telegram.WebApp.close();
   } else if (status == "cancelled") {
-    window.Telegram.WebApp.HapticFeedback.notificationOccurred("error");
+    telegramHapticFeedback.notificationOccurred("error");
     snackBarToggle("Your order was cancelled");
   } else if (status == "pending") {
-    window.Telegram.WebApp.HapticFeedback.notificationOccurred("warning");
+    telegramHapticFeedback.notificationOccurred("warning");
     snackBarToggle("Payment pending");
   } else {
-    window.Telegram.WebApp.HapticFeedback.notificationOccurred("error");
+    telegramHapticFeedback.notificationOccurred("error");
 
     showSnackBar("Payment failed, try again");
   }
@@ -25,7 +30,7 @@ export const bookTickets = async (
   snackBarToggle,
   schedule
 ) => {
-  window.Telegram.WebApp.MainButton.showProgress();
+  telegramMainButton.showProgress();
   try {
     const response = await fetch(`${import.meta.env.VITE_API_URL}/getInvoice`, {
       method: "POST",
@@ -42,24 +47,24 @@ export const bookTickets = async (
           price_per_ticket: data[movieID].price_per_ticket,
           schedule: schedule,
         },
-        initData: window.Telegram.WebApp.initData,
+        initData: telegramWebApp.initData,
       }),
     });
     const invoice = await response.json();
     if (invoice.ok) {
-      window.Telegram.WebApp.openInvoice(invoice.result, (status) => {
+      telegramWebApp.openInvoice(invoice.result, (status) => {
         handlePaymentStatus(status, snackBarToggle);
       });
     } else {
-      window.Telegram.WebApp.HapticFeedback.notificationOccurred("error");
-      window.Telegram.WebApp.MainButton.hideProgress();
+      telegramHapticFeedback.notificationOccurred("error");
+      telegramMainButton.hideProgress();
       console.log(invoice);
       if (invoice.description) return snackBarToggle(invoice.description);
       else return snackBarToggle("Server Error");
     }
   } catch (error) {
-    window.Telegram.WebApp.HapticFeedback.notificationOccurred("error");
-    window.Telegram.WebApp.MainButton.hideProgress();
+    telegramHapticFeedback.notificationOccurred("error");
+    telegramMainButton.hideProgress();
     return snackBarToggle("Fetching invoice failed");
   }
 };

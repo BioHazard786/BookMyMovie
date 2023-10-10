@@ -3,6 +3,10 @@ import data from "../data/data.json";
 import "./MovieDetailBackground.css";
 import { useRef } from "react";
 
+/**
+ * Component for showing the backdround image in the movie deatils page
+ * Stateless component
+ */
 const MovieDetailBackground = () => {
   const { movieID } = useParams();
   const imgRef1 = useRef();

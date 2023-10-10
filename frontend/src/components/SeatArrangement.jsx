@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import "./SeatArrangement.css";
 import { checkLowContrast } from "../utils/colorComparision";
 import { bgColor, secondaryBgColor } from "../utils/themeParams";
+import { telegramHapticFeedback } from "../utils/telegramWebAppComponents";
 
 // Data for Numbers of seats available
 const seatArray = [
@@ -9,6 +10,9 @@ const seatArray = [
   23, 24, 25, 26, 27, 28, 29, 30,
 ];
 
+/**
+ * Component for seat arrangement in grid pattern
+ */
 const SeatArrangement = ({ arrangement, seats, addSeats, removeSeats }) => {
   return (
     <div className="seats-grid">
@@ -28,19 +32,21 @@ const SeatArrangement = ({ arrangement, seats, addSeats, removeSeats }) => {
 const Seats = ({ seatNumber, seats, addSeats, removeSeats }) => {
   const removeSelectedSeats = (selectedSeat) => {
     // haptic feedback funciton for telegram mini app
-    window.Telegram.WebApp.HapticFeedback.impactOccurred("light");
+    telegramHapticFeedback.impactOccurred("light");
     removeSeats(selectedSeat);
   };
 
   const chooseSeats = (chosenSeat) => {
     // haptic feedback funciton for telegram mini app
-    window.Telegram.WebApp.HapticFeedback.impactOccurred("light");
+    telegramHapticFeedback.impactOccurred("light");
     addSeats(chosenSeat);
   };
 
   return seats.some((seat) => seat == seatNumber) ? (
     <motion.div
-      // Condional styling to add border when contrast is too low
+      /**
+       * Condional styling to add border when contrast is too low
+       */
       style={
         checkLowContrast(bgColor, secondaryBgColor)
           ? { border: "1px solid var(--button-color)" }
@@ -56,7 +62,9 @@ const Seats = ({ seatNumber, seats, addSeats, removeSeats }) => {
     </motion.div>
   ) : (
     <motion.div
-      // Condional styling to add border when contrast is too low
+      /**
+       * Condional styling to add border when contrast is too low
+       */
       style={
         checkLowContrast(bgColor, secondaryBgColor)
           ? { border: "1px solid var(--button-color)" }

@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useSelectTime } from "../utils/store";
 import { checkLowContrast } from "../utils/colorComparision";
 import { bgColor, secondaryBgColor } from "../utils/themeParams";
+import { telegramHapticFeedback } from "../utils/telegramWebAppComponents";
 
 const TimePicker = () => {
   // random data for time component
@@ -15,7 +16,7 @@ const TimePicker = () => {
 
   const pickTime = (selectedTime) => {
     // haptic feedback funciton for telegram mini app
-    window.Telegram.WebApp.HapticFeedback.impactOccurred("medium");
+    telegramHapticFeedback.impactOccurred("medium");
     setCurrentSelectedTime(selectedTime);
   };
 
@@ -23,7 +24,10 @@ const TimePicker = () => {
     <div className="time-picker">
       {virtualTime.map((time, index) => (
         <motion.div
-          // Condional styling to add border when contrast is too low
+          /**
+           * Condional styling to add border when contrast is too low
+           * */
+
           style={
             checkLowContrast(bgColor, secondaryBgColor)
               ? { border: "1px solid var(--button-color)" }
