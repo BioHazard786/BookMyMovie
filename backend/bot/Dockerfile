@@ -11,6 +11,5 @@ RUN chmod 777 /app/
 COPY requirements.txt /app/
 RUN pip3 install -U -r requirements.txt
 COPY . /app/
-EXPOSE 8000
 
 CMD ["python3", "bot.py"]

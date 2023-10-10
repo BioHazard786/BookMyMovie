@@ -54,7 +54,8 @@ export const bookTickets = async (
       window.Telegram.WebApp.HapticFeedback.notificationOccurred("error");
       window.Telegram.WebApp.MainButton.hideProgress();
       console.log(invoice);
-      return snackBarToggle("Client Error");
+      if (invoice.description) return snackBarToggle(invoice.description);
+      else return snackBarToggle("Server Error");
     }
   } catch (error) {
     window.Telegram.WebApp.HapticFeedback.notificationOccurred("error");

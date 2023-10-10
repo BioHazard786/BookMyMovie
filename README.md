@@ -1,25 +1,49 @@
-# BookMyMovie
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-This is a Telegram Mini App. Book any imaginary movie with it seamlessly with a unique interface. Made for the contest to be held on 10/10/2023.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/BioHazard786/BookMyMovie">
+    <img src="images/BookMyMovieLogo.png" alt="Logo" width="100" height="100">
+  </a>
 
-<p align="center">
-<a href="https://t.me/BookMyMovieBot">View Demo</a>
+  <h3 align="center">BookMyMovie</h3>
+
+  <p align="center">
+    This is a Telegram Mini App. Book any imaginary movie with it seamlessly with a unique interface. Made for the contest to be held on 10/10/2023.
+    <br />
+    <br />
+    <a href="https://t.me/BookMyMovieBot">View Demo</a>
     ·
     <a href="https://github.com/BioHazard786/BookMyMovie/issues">Report Bug</a>
     ·
-    <a href="https://github.com/BioHazard786/BookMyMovie/issues">Request Feature</a></p>
+    <a href="https://github.com/BioHazard786/BookMyMovie/issues">Request Feature</a>
+  </p>
+</div>
 
 ## Table of Contents
 
+- [Screenshots](#screenshots)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
 - [Features](#features)
 - [Built With](#built-with)
 - [Contributing](#contributing)
 - [License](#license)
 - [Acknowledgments](#acknowledgments)
+
+## Screenshots
+
+[![BookMyMovie Screen Shot][screenshot-1]](https://t.me/BookMyMovie)
+
+[![BookMyMovie Screen Shot][screenshot-2]](https://t.me/BookMyMovie)
+
+[![BookMyMovie Screen Shot][screenshot-3]](https://t.me/BookMyMovie)
 
 ## Getting Started
 
@@ -147,6 +171,7 @@ python bot.py
 ## Built With
 
 - [React](https://reactjs.org/) - The JavaScript library used
+
 - [Framer Motion](https://www.framer.com/motion/) - The Animation library used
 - [React Router](https://reactrouter.com/en/main) - The Routing library used
 - [Zustand](https://github.com/pmndrs/zustand/) - The State Management library used
@@ -168,10 +193,27 @@ Don't forget to give the project a star! Thanks again!
 
 ## License
 
-Distributed under the GPL License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Acknowledgments
 
 - Thanks To Dan For His Awesome [Library](https://github.com/pyrogram/pyrogram)
 - Thanks To [Poimandres](https://github.com/pmndrss) for Zustand Library.
 - Thanks To All Everyone In This Journey
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/BioHazard786/BookMyMovie.svg?style=for-the-badge
+[contributors-url]: https://github.com/BioHazard786/BookMyMovie/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/BioHazard786/BookMyMovie.svg?style=for-the-badge
+[forks-url]: https://github.com/BioHazard786/BookMyMovie/network/members
+[stars-shield]: https://img.shields.io/github/stars/BioHazard786/BookMyMovie.svg?style=for-the-badge
+[stars-url]: https://github.com/BioHazard786/BookMyMovie/stargazers
+[issues-shield]: https://img.shields.io/github/issues/BioHazard786/BookMyMovie.svg?style=for-the-badge
+[issues-url]: https://github.com/BioHazard786/BookMyMovie/issues
+[license-shield]: https://img.shields.io/github/license/BioHazard786/BookMyMovie.svg?style=for-the-badge
+[license-url]: https://github.com/BioHazard786/BookMyMovie/blob/master/LICENSE
+[screenshot-1]: images/Screenshot_1.jpg
+[screenshot-2]: images/Screenshot_2.jpg
+[screenshot-3]: images/Screenshot_3.jpg

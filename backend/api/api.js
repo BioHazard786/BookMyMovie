@@ -1,94 +1,115 @@
-const { createHmac } = require("crypto");
 const express = require("express");
 const cors = require("cors");
 const { json } = require("express");
+const validateData = require("./utils/validateData");
+const calculatePrices = require("./utils/formatPrice");
+const fetchInvoice = require("./utils/fetchInvoice");
+const swaggerDocs = require("./swagger");
 require("dotenv").config();
 const app = express();
+
+// Using JSON middleware
 app.use(json());
 
 // Using cors
 app.use(
   cors({
-    origin: "https://bookmymovie-telegram.vercel.app", // Froentend URL
+    origin: "https://bookmymovie-telegram.vercel.app", // Frontend URL
   })
 );
 
 const PORT = process.env.PORT || 3000;
 
-const fetchInvoice = async (url) => {
-  try {
-    const response = await fetch(url, {
-      method: "POST",
-    });
-    const invoiceData = await response.json();
-    console.log(invoiceData);
-    return invoiceData;
-  } catch (error) {
-    console.log("Error in Telegram API", error);
-    return { ok: false, error_code: 500, description: "Error in Telegram API" };
-  }
-};
-
-// formatting the value of prices params in the form of [{"label": String, "amount": Number }]
-const calculatePrices = (ticket_data) => {
-  let prices = [];
-  const totalBill =
-    ticket_data.price_per_ticket * ticket_data.ticket_count * 100;
-  prices.push({
-    label: `🎫 Ticket x${ticket_data.ticket_count}`,
-    amount: totalBill,
-  });
-  if (ticket_data.ticket_count > 4) {
-    prices.push({
-      label: "Discount",
-      amount: -8000 * (ticket_data.ticket_count - 4),
-    });
-  }
-  return JSON.stringify(prices);
-};
-
-const validateData = (initData) => {
-  // Transforms initData string into object
-  const urlParams = new URLSearchParams(initData);
-
-  // Getting hash from iniData and deleting it
-  const hash = urlParams.get("hash");
-  urlParams.delete("hash");
-
-  // sorted alphabetically
-  urlParams.sort();
-
-  // Data-check-string is a chain of all received fields in the format key=<value> seperated by \n
-  let dataCheckString = "";
-  for (const [key, value] of urlParams.entries()) {
-    dataCheckString += `${key}=${value}\n`;
-  }
-  dataCheckString = dataCheckString.slice(0, -1);
-
-  // HMAC-SHA-256 signature of the bot's token with the constant string WebAppData used as a key.
-  const secretKey = createHmac("sha256", "WebAppData").update(
-    process.env.BOT_TOKEN
-  );
-
-  // The hexadecimal representation of the HMAC-SHA-256 signature of the data-check-string with the secret key
-  const calculatedHash = createHmac("sha256", secretKey.digest())
-    .update(dataCheckString)
-    .digest("hex");
-
-  // Checking telegram hash and calculated hash for validating data
-  if (calculatedHash === hash) {
-    return true;
-  } else {
-    return false;
-  }
-};
-
-// Home Route
+/**
+ * @openapi
+ * /:
+ *  get:
+ *     tags:
+ *     - Healthcheck
+ *     description: Responds if the app is up and running
+ *     responses:
+ *       200:
+ *         description: App is up and running
+ */
 app.get("/", (req, res) => {
-  return res.json({ error: "API intended for use with telegram mini app" });
+  res.statusCode = 200;
+  return res.json({ result: "App is up and running" });
 });
 
-// Route for getting payment invoice
+/**
+ * @openapi
+ * '/getInvoice':
+ *  post:
+ *     tags:
+ *     - Fetch Invoice
+ *     description: Responds with invoice link and status code 200 if telegram bot api successfully created invoice link
+ *     summary: Fetch payment invoice from telegram bot api
+ *     requestBody:
+ *      required: true
+ *      content:
+ *        application/json:
+ *           schema:
+ *              type: object
+ *              required:
+ *                - title
+ *                - description
+ *                - photo_url
+ *                - ticket_data
+ *                - initData
+ *              properties:
+ *                title:
+ *                  type: string
+ *                  default: Inception
+ *                description:
+ *                  type: string
+ *                  default: Your mind is the scene of the crime.
+ *                photo_url:
+ *                  type: string
+ *                  default: https://image.tmdb.org/t/p/w500/b5xAbWqVNsp14lCtR2vhaURWo7G.jpg
+ *                initData:
+ *                  type: string
+ *                  default: initData to be send from telegram web app
+ *                ticket_data:
+ *                  type: object
+ *                  properties:
+ *                    ticket_count:
+ *                      type: number
+ *                      default: 5
+ *                    price_per_ticket:
+ *                      type: number
+ *                      default: 200
+ *                    schedule:
+ *                      type: string
+ *                      default: Tue 10 Oct 13:10
+ *
+ *
+ *
+ *     responses:
+ *      200:
+ *        description: Success
+ *        content:
+ *          application/json:
+ *            schema:
+ *              type: object
+ *              properties:
+ *                ok:
+ *                  type: boolean
+ *                result:
+ *                  type: string
+ *      400:
+ *        description: Bad request
+ *        content:
+ *          application/json:
+ *            schema:
+ *              type: object
+ *              properties:
+ *                ok:
+ *                  type: boolean
+ *                  default: false
+ *                result:
+ *                  type: string
+ *                  default: Data not from telegram
+ */
 app.post("/getInvoice", async (req, res) => {
   const { title, description, photo_url, ticket_data, initData } = req.body;
 
@@ -115,14 +136,18 @@ app.post("/getInvoice", async (req, res) => {
     const url = `https://api.telegram.org/bot${process.env.BOT_TOKEN}/createInvoiceLink`;
     // Sending Post request to telegram bot api for invoice link
     const invoiceData = await fetchInvoice(`${url}?${queryParams.toString()}`);
+    res.statusCode = 200;
     return res.json(invoiceData);
   } else {
+    res.statusCode = 400;
     return res.json({ ok: false, description: "Data not from telegram" });
   }
 });
 
-app.listen(PORT, () =>
-  console.log(`Express app running on  http://localhost:${PORT}`)
-);
+app.listen(PORT, () => {
+  console.log(`Express app running on  http://localhost:${PORT}`);
+
+  swaggerDocs(app, PORT);
+});
 
 module.exports = app;
