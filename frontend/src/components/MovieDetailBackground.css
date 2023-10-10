@@ -56,3 +56,17 @@
 .hide {
   display: none;
 }
+
+@media (max-width: 1040px) {
+  .movie-detail-poster,
+  .movie-detail-poster-inverted {
+    aspect-ratio: 1/1;
+  }
+}
+
+@media (max-width: 760px) {
+  .movie-detail-poster,
+  .movie-detail-poster-inverted {
+    aspect-ratio: auto;
+  }
+}

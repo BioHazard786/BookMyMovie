@@ -192,6 +192,7 @@
   scrollbar-width: none;
 }
 
+/* To make horizontal scroll bar disappear */
 .character-photo-array::-webkit-scrollbar {
   display: none;
 }

@@ -4,7 +4,7 @@
   width: 400px;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1040px) {
   .movie-detail-container {
     width: 100%;
   }
