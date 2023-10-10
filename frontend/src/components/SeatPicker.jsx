@@ -10,6 +10,7 @@ import SeatArrangement from "./SeatArrangement";
 import "./SeatPicker.css";
 import { useEffect } from "react";
 import data from "../data/data.json";
+import { telegramMainButton } from "../utils/telegramWebAppComponents";
 
 const SeatPicker = () => {
   // Seat state from store
