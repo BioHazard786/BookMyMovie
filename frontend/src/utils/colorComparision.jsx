@@ -17,3 +17,10 @@ export default function lightColor(color1, color2) {
     return color2;
   }
 }
+
+// function for checking contrast difference between 2 colors and return true when its too low
+export function checkLowContrast(color1, color2) {
+  const difference = sumColor(color1) - sumColor(color2);
+  if (difference <= 25 && difference >= -25) return true;
+  else return false;
+}

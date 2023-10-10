@@ -1,6 +1,6 @@
 # BookMyMovie
 
-This is a Telegram Mini App. Book any imaginary movie with it seamlessly with a unique interface. Made for the contest to be held on 09/10/2023.
+This is a Telegram Mini App. Book any imaginary movie with it seamlessly with a unique interface. Made for the contest to be held on 10/10/2023.
 
 <p align="center">
 <a href="https://t.me/BookMyMovieBot">View Demo</a>

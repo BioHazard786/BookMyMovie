@@ -12,15 +12,19 @@ import { useEffect } from "react";
 import data from "../data/data.json";
 
 const SeatPicker = () => {
+  // Seat state from store
   const [seats, addSeats, removeSeats] = useSeats((seatStore) => [
     seatStore.seats,
     seatStore.addSeats,
     seatStore.removeSeats,
   ]);
 
+  // Time state from store
   const currentSelectedTime = useSelectTime(
     (timeStore) => timeStore.currentSelectedTime
   );
+
+  // Date state from store
   const currentSelectedDate = useSelectDate(
     (dateStore) => dateStore.currentSelectedDate
   );
@@ -30,7 +34,7 @@ const SeatPicker = () => {
 
   const { movieID } = useParams();
 
-  // Checking before fetching payment invoice
+  // Checking before fetching payment invoice, date and time has been selected
   const mainButtonClick = () => {
     if (!currentSelectedDate) {
       window.Telegram.WebApp.HapticFeedback.notificationOccurred("error");
@@ -48,13 +52,15 @@ const SeatPicker = () => {
     }
   };
 
-  // Condition for showing main button
+  // Condition for showing text on main button
   if (seats.length !== 0) {
     window.Telegram.WebApp.MainButton.setParams({
       text: `Pay ₹${seats.length * data[movieID].price_per_ticket}`,
     }).show();
   } else {
-    window.Telegram.WebApp.MainButton.hide();
+    window.Telegram.WebApp.MainButton.setParams({
+      text: "Choose Seats",
+    }).show();
   }
 
   // Mechanism for onClick handler so that htey does not pile up when component rerenders

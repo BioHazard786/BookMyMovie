@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import "./SeatArrangement.css";
+import { checkLowContrast } from "../utils/colorComparision";
+import { bgColor, secondaryBgColor } from "../utils/themeParams";
 
 // Data for Numbers of seats available
 const seatArray = [
@@ -38,6 +40,12 @@ const Seats = ({ seatNumber, seats, addSeats, removeSeats }) => {
 
   return seats.some((seat) => seat == seatNumber) ? (
     <motion.div
+      // Condional styling to add border when contrast is too low
+      style={
+        checkLowContrast(bgColor, secondaryBgColor)
+          ? { border: "1px solid var(--button-color)" }
+          : null
+      }
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       onClick={(e) => removeSelectedSeats(e.target.getAttribute("data-value"))}
@@ -48,6 +56,12 @@ const Seats = ({ seatNumber, seats, addSeats, removeSeats }) => {
     </motion.div>
   ) : (
     <motion.div
+      // Condional styling to add border when contrast is too low
+      style={
+        checkLowContrast(bgColor, secondaryBgColor)
+          ? { border: "1px solid var(--button-color)" }
+          : null
+      }
       whileHover={{ scale: 1.1 }}
       whileTap={{ scale: 0.9 }}
       onClick={(e) => chooseSeats(e.target.getAttribute("data-value"))}

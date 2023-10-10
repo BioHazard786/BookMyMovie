@@ -2,6 +2,8 @@ import "./DatePicker.css";
 import { motion } from "framer-motion";
 import { virtualDateGenerator } from "../utils/virtualDateGenerator";
 import { useSelectDate } from "../utils/store";
+import { checkLowContrast } from "../utils/colorComparision";
+import { bgColor, secondaryBgColor } from "../utils/themeParams";
 
 const DatePicker = () => {
   const virtualDates = virtualDateGenerator();
@@ -26,6 +28,12 @@ const DatePicker = () => {
     <div className="date-picker">
       {virtualDates.map((virtualDate, index) => (
         <motion.div
+          // Condional styling to add border when contrast is too low
+          style={
+            checkLowContrast(bgColor, secondaryBgColor)
+              ? { border: "1px solid var(--button-color)" }
+              : null
+          }
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           className={`date-picker-container ${
